@@ -1,8 +1,8 @@
 import unittest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 from time import sleep
+
 
 frazaTestowa = "Paczkord"
 cyfra1 = "65"
@@ -26,9 +26,9 @@ class APRegistration(unittest.TestCase):
         self.driver.quit()
 
     def testSingleInputField(self):
-        self.driver.find_element(By.ID,"basic_example").click()
+        self.driver.find_element(By.ID, "basic_example").click()
         sleep(1)
-        self.driver.find_element(By.XPATH,'//*[@id="basic"]/div/a[1]').click()
+        self.driver.find_element(By.XPATH, '//*[@id="basic"]/div/a[1]').click()
         sleep(1)
         wiadomosc = self.driver.find_element(By.ID,"user-message")
         wiadomosc.clear()

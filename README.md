@@ -1,5 +1,6 @@
 # WSB_asta
-Projekt zaliczeniowy na WSB z wykorzystaniem https://asta.pgs-soft.com/
+Projekt zaliczeniowy na WSB tester oprogramowania \
+z wykorzystaniem https://demo.seleniumeasy.com/
 
 ## Strona z zadaniami testowymi
-https://testingcup.pgs-soft.com/
+https://demo.seleniumeasy.com/
