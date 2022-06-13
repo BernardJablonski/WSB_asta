@@ -12,23 +12,24 @@ Python 3.8.10 \
 pip 20.0.2
 
 ## stworzone środowisko wirtualne (venv)
-zgodnie z instrukcją: \
-https://www.infoworld.com/article/3239675/virtualenv-and-venv-python-virtual-environments-explai
-ned.html
+zgodnie z instrukcją: 
 
-    python -m venv ./venv
+    https://www.infoworld.com/article/3239675/virtualenv-and-venv-python-virtual-environments-explained.html
 
-Jeśli brakuje pakiety do środowiska wirtualnego należy doinstalować:
+Instalacja pakietu do środowiska wirtualnego aby powołać pełne środowisko:
 
     apt install python3.8-venv
 
-bez tego elementu nie generowały się pliki do aktywacji środowiska wirtualnego.
+powołanie środowiska wirtualnego
+
+    python -m venv ./venv
 
 aktywacja środowiska w terminalu:
 
     source venv/bin/activate
 
 ## Przygotowanie sterowników do przeglądarek:
+
 instrukcja:
 
     https://selenium-python.readthedocs.io/installation.html
@@ -45,5 +46,7 @@ Instrukcja mówi aby pobrane pliki umieścić w katalogach:
     /usr/local/bin - wybrane przeze mnie
 
 ## Widok wersji pakietów
+
+Pakiety na jakim testowano środowisko
 
 ![screen z Pych z pakietami](./image/pakiet_version.png)
