@@ -46,4 +46,4 @@ Instrukcja mówi aby pobrane pliki umieścić w katalogach:
 
 ## Widok wersji pakietów
 
-    ![screen z Pych z pakietami](/image/pakiet_version.png)
+![screen z Pych z pakietami](./image/pakiet_version.png)
